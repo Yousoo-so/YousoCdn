@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Yousoo CDN</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body class="hide-scrollbar">
+   <div class="background-grid"></div>
+   <div class="background-glow"></div>
+   <div id="main-container" class="min-h-screen flex flex-col items-center justify-center p-4 relative z-10">
+       <header class="text-center mb-4">
+           <h1 class="main-title text-4xl md:text-5xl font-bold text-white tracking-widest uppercase">
+               Yousoo <span class="text-f1-red"> CDN </span> Uploader
+           </h1>
+           <p class="text-cyan-glow mt-2 text-lg">Transfer Data Cepat</p>
+       </header>
+       <main id="uploader-container" class="relative w-full max-w-3xl bg-glass border border-glass-edge rounded-lg shadow-2xl overflow-hidden">
+           <div class="p-6 md:p-8">
+               <div id="drop-zone" class="border-2 border-dashed border-gray-600 rounded-lg p-8 text-center cursor-pointer transition-all duration-300 hover:border-f1-red hover:bg-gray-800/50">
+                   <div class="flex flex-col items-center justify-center">
+                       <i class="fas fa-tachometer-alt-fast text-5xl text-f1-red mb-4 drop-icon"></i>
+                       <p class="text-xl font-semibold text-white">Lepas File untuk Inisiasi Transfer</p>
+                       <p class="text-gray-400">atau</p>
+                       <button id="browse-btn" class="main-button mt-4">
+                           <span class="main-button-text">Pilih Data</span>
+                       </button>
+                   </div>
+                   <input type="file" id="file-input" multiple class="hidden">
+               </div>
+               
+               <p id="upload-limit-text" class="text-center text-gray-500 text-sm mt-4">Batas Transfer Maksimal: 100 MB</p>
+               <div id="file-list-container" class="mt-6 hidden">
+                   <h3 class="font-bold text-lg mb-3 text-white border-b-2 border-gray-700/50 pb-2">Log Transfer</h3>
+                   <div id="file-list" class="max-h-72 overflow-y-auto pr-2">
+                   </div>
+               </div>
+           </div>
+       </main>
+       <footer class="text-center mt-8 text-gray-600 text-sm">
+           <p>© Yousoo 2024 - forever</p>
+       </footer>
+   </div>
+   <script src="https://cdn.tailwindcss.com/"></script>
+   <script>
+       tailwind.config = {
+           theme: {
+               extend: {
+                   colors: {
+                       'f1-red': '#E10600',
+                       'glass': 'rgba(10, 10, 20, 0.5)',
+                       'glass-edge': 'rgba(255, 255, 255, 0.1)',
+                       'cyan-glow': 'rgba(0, 255, 255, 0.8)'
+                   }
+               }
+           }
+       }
+   </script>
+   <script src="client.js"></script>
+   <script>
+       document.addEventListener("DOMContentLoaded", function() {
+           setTimeout(() => {
+               document.body.classList.add('loaded');
+               document.getElementById('main-container').style.opacity = 1;
+               document.getElementById('main-container').style.transform = 'translateY(0)';
+           }, 100);
+       });
+   </script>
+</body>
+</html>
