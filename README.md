@@ -2,7 +2,7 @@
   <img src="https://files.catbox.moe/oso7xd.jpg" width="100%" alt="Yousoo CON Banner">
 </p>
 
-# 📁 Yousoo CON Uploader
+# 📁 Yousoo CDN Uploader
 
 **Transfer data cepat dengan tampilan futuristik.**  
 Proyek ini adalah web uploader sederhana berbasis Node.js + Express + HTML/CSS custom, dengan sistem drag & drop, batasan ukuran file, dan gaya antarmuka ala terminal digital masa depan.
