@@ -5,7 +5,7 @@
 # 📁 Yousoo CDN Uploader
 
 **Transfer data cepat dengan tampilan futuristik.**  
-Proyek ini adalah web uploader sederhana berbasis Node.js + Express + HTML/CSS custom, dengan sistem drag & drop, batasan ukuran file, dan gaya antarmuka ala F1.
+Proyek ini adalah web uploader sederhana berbasis Node.js + Express + HTML/CSS custom, dengan sistem drag & drop, batasan ukuran file, dan gaya antarmuka ala terminal digital masa depan.
 
 ---
 
@@ -24,6 +24,13 @@ Proyek ini adalah web uploader sederhana berbasis Node.js + Express + HTML/CSS c
 - 🧰 Batas maksimum transfer 100MB
 - 🚀 Dibangun dengan Node.js dan Express
 - 🖼 Desain responsif
+
+<p align="center">
+  <video width="500" autoplay muted loop playsinline>
+    <source src="https://files.catbox.moe/txjcwo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</p>
 
 ---
 
