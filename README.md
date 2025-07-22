@@ -5,7 +5,7 @@
 # 📁 Yousoo CDN Uploader
 
 **Transfer data cepat dengan tampilan futuristik.**  
-Proyek ini adalah web uploader sederhana berbasis Node.js + Express + HTML/CSS custom, dengan sistem drag & drop, batasan ukuran file, dan gaya antarmuka ala terminal digital masa depan.
+Proyek ini adalah web uploader sederhana berbasis Node.js + Express + HTML/CSS custom, dengan sistem drag & drop, batasan ukuran file, dan gaya antarmuka ala F1.
 
 ---
 
