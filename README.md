@@ -25,13 +25,6 @@ Proyek ini adalah web uploader sederhana berbasis Node.js + Express + HTML/CSS c
 - 🚀 Dibangun dengan Node.js dan Express
 - 🖼 Desain responsif
 
-<p align="center">
-  <video width="500" autoplay muted loop playsinline>
-    <source src="https://files.catbox.moe/txjcwo.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</p>
-
 ---
 
 ## 🚀 Cara Menjalankan
